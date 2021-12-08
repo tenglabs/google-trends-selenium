@@ -16,7 +16,7 @@ driver = webdriver.Firefox(options=options, service=service)
 url = 'https://trends.google.com/trends/trendingsearches/daily?geo=US'
 
 driver.get(url)
-driver.implicitly_wait(13) # To avoid abuse of targeted website !!! In production should be replaced or reworked for proxies
+#driver.implicitly_wait(13) # To avoid abuse of targeted website !!! In production should be replaced or reworked for proxies
 
 
 date = driver.find_element(By.CLASS_NAME, "content-header-title").text
@@ -44,7 +44,7 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
         trends[x]['related_queries'].append(query.text)
 
-
+    time.sleep(5)
     btns = elem.find_elements(By.XPATH, "//button[contains(@class, 'carousel-next')]")
 
 
@@ -54,6 +54,7 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
         l1 = []
         for test in tests:
+
             link = test.get_attribute('href')
             title = test.get_attribute('title')
             source = test.find_element(By.XPATH,'.//span').get_attribute('innerHTML') #Ugly solution, I will leave it like this unless it will be in production
@@ -62,11 +63,17 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
 
         trends[x]['related_news'] = l1
-#print
+print(trends)
 print('Finished scaning trends. Scaning google.com')
 for data in trends:
     query = trends[data]
-    title = query['title']
+    title = query['name']
+    related_titles = query['related_queries']
+    print(related_titles)
+    for related_title in related_titles:
+        print(related_title)
+        google = f'https://www.google.com/search?q={related_title}'
+        driver.get(google)
     google = f'https://www.google.com/search?q={title}'
 
     related_query = query['related_queries']

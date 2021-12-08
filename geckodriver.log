@@ -1,840 +1,196 @@
-1638918116806	geckodriver	INFO	Listening on 127.0.0.1:35819
-1638918117308	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "50581" "-no-remote" "-profile" "/tmp/rust_mozprofileF6SpeW"
-1638918118128	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileF6SpeW/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50581/devtools/browser/553fdaaa-9600-45f8-a70f-84627355ea34
-1638918119184	Marionette	INFO	Listening on port 42587
-1638918119225	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638918252187	Marionette	INFO	Stopped listening on port 42587
+./geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+./geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+./geckodriver: error: Found argument '--websocket-port' which wasn't expected, or isn't valid in this context
+
+USAGE:
+    geckodriver [FLAGS] [OPTIONS]
+
+For more information try --help
+
+1638925087169	geckodriver	INFO	Listening on 127.0.0.1:52969
+1638925087171	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55127" "-no-remote" "-profile" "/tmp/rust_mozprofilemDNhvg"
+1638925087863	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilemDNhvg/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55127/devtools/browser/4923ffcc-0a63-439b-8e6f-1d81afe413ce
+1638925088951	Marionette	INFO	Listening on port 32963
+1638925088986	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925107383	Marionette	INFO	Stopped listening on port 32963
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638918275863	geckodriver	INFO	Listening on 127.0.0.1:43215
-1638918275879	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52893" "-no-remote" "-profile" "/tmp/rust_mozprofileMcvw0r"
-1638918276582	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileMcvw0r/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52893/devtools/browser/943c27c0-c5b9-472d-bdaa-620d844abb57
-1638918277620	Marionette	INFO	Listening on port 46203
-1638918277696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638918346406	Marionette	INFO	Stopped listening on port 46203
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638918432981	geckodriver	INFO	Listening on 127.0.0.1:50277
-1638918432984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55823" "-no-remote" "-profile" "/tmp/rust_mozprofileJSm1pv"
-1638918433686	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJSm1pv/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55823/devtools/browser/913e4edd-11a6-466a-a797-943eb9ca6a66
-1638918434833	Marionette	INFO	Listening on port 33403
-1638918434900	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638918540355	geckodriver	INFO	Listening on 127.0.0.1:43845
-1638918540359	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38791" "-no-remote" "-profile" "/tmp/rust_mozprofileLCYHTV"
-1638918541124	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLCYHTV/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:38791/devtools/browser/ceabefb8-0843-446c-a724-e16815f489c9
-1638918542257	Marionette	INFO	Listening on port 33821
-1638918542280	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638918548771	geckodriver	INFO	Listening on 127.0.0.1:38299
-1638918549278	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "35671" "-no-remote" "-profile" "/tmp/rust_mozprofileO0G0sQ"
-1638918550208	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileO0G0sQ/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:35671/devtools/browser/edf3c15f-8ed1-4739-8c4b-a806bb8d866b
-1638918552076	Marionette	INFO	Listening on port 45269
-1638918552199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638918560739	Marionette	INFO	Stopped listening on port 45269
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
-1638918562013	Marionette	INFO	Stopped listening on port 33821
+1638925109222	geckodriver	INFO	Listening on 127.0.0.1:41221
+1638925109225	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52845" "-no-remote" "-profile" "/tmp/rust_mozprofile1YfEk4"
+1638925110028	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1YfEk4/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52845/devtools/browser/11aa60c3-eb35-48bc-b0d5-af983887414c
+1638925111133	Marionette	INFO	Listening on port 46351
+1638925111244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925159088	Marionette	INFO	Stopped listening on port 46351
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638918565516	geckodriver::marionette	ERROR	Failed to close browser connection: Socket not connected (os error 107)
-1638918583589	geckodriver	INFO	Listening on 127.0.0.1:56537
-1638918583592	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37483" "-no-remote" "-profile" "/tmp/rust_mozprofile0TaccW"
-1638918584448	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0TaccW/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:37483/devtools/browser/d97c6ade-4f11-4464-ab9b-857396b2a3b6
-1638918585744	Marionette	INFO	Listening on port 36063
-1638918585809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-1638918594081	geckodriver	INFO	Listening on 127.0.0.1:54149
-1638918594085	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "35199" "-no-remote" "-profile" "/tmp/rust_mozprofilehontyD"
-*** You are running in headless mode.
-1638918594441	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehontyD/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:35199/devtools/browser/2d1a8bd1-af06-443f-8723-1b65370b53a4
-1638918595319	Marionette	INFO	Listening on port 39397
-1638918595399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638919082988	Marionette	INFO	Stopped listening on port 33403
+1638925201523	geckodriver	INFO	Listening on 127.0.0.1:50709
+1638925201526	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47509" "-no-remote" "-profile" "/tmp/rust_mozprofileJmBz5m"
+1638925202327	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJmBz5m/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:47509/devtools/browser/3e1c77ea-4ed9-44ab-b290-eea83e0a3e2e
+1638925203356	Marionette	INFO	Listening on port 43697
+1638925203442	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925229809	geckodriver	INFO	Listening on 127.0.0.1:50175
+1638925229811	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39069" "-no-remote" "-profile" "/tmp/rust_mozprofile2DPDnP"
+1638925230503	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2DPDnP/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39069/devtools/browser/1cb35e14-5167-4b72-8972-7b7ce37dd1d2
+1638925231655	Marionette	INFO	Listening on port 43753
+1638925231726	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925289010	geckodriver	INFO	Listening on 127.0.0.1:53281
+1638925289013	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54859" "-no-remote" "-profile" "/tmp/rust_mozprofileZ5WFZ5"
+1638925289715	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZ5WFZ5/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54859/devtools/browser/4b4284f3-de49-4946-b950-8389ab809df1
+1638925290744	Marionette	INFO	Listening on port 36247
+1638925290828	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925330382	geckodriver	INFO	Listening on 127.0.0.1:39833
+1638925330385	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "40633" "-no-remote" "-profile" "/tmp/rust_mozprofile77MZwr"
+1638925331120	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile77MZwr/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40633/devtools/browser/03e683ea-f660-4b00-af32-b83e8142dcca
+1638925332259	Marionette	INFO	Listening on port 40203
+1638925332299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925414977	geckodriver	INFO	Listening on 127.0.0.1:47937
+1638925414980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "39299" "-no-remote" "-profile" "/tmp/rust_mozprofilep2jd8I"
+1638925415687	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilep2jd8I/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:39299/devtools/browser/d4c57de6-c25b-42fe-a84f-069f7da71201
+1638925416644	Marionette	INFO	Listening on port 45105
+1638925416694	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925420398	geckodriver	INFO	Listening on 127.0.0.1:33319
+1638925420401	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "45565" "-no-remote" "-profile" "/tmp/rust_mozprofilehI54Su"
+1638925421168	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehI54Su/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:45565/devtools/browser/eb9341eb-40df-4664-89ce-08cb41790871
+1638925422100	Marionette	INFO	Listening on port 45949
+1638925422116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925429403	Marionette	INFO	Stopped listening on port 43697
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638919366180	geckodriver	INFO	Listening on 127.0.0.1:43249
-1638919366683	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "36579" "-no-remote" "-profile" "/tmp/rust_mozprofileknRbVY"
-*** You are running in headless mode.
-1638919367054	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileknRbVY/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:36579/devtools/browser/08038b25-fe17-44ce-a545-07f3185db159
-1638919368141	Marionette	INFO	Listening on port 35581
-1638919368199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638919424875	geckodriver	INFO	Listening on 127.0.0.1:54997
-1638919425380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51551" "-no-remote" "-profile" "/tmp/rust_mozprofilez9xezh"
-*** You are running in headless mode.
-1638919425905	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-1638919475271	geckodriver	INFO	Listening on 127.0.0.1:38569
-1638919475774	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "34339" "-no-remote" "-profile" "/tmp/rust_mozprofileiB8SoD"
-*** You are running in headless mode.
-1638919476166	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileiB8SoD/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:34339/devtools/browser/5e3fb011-c5f6-484b-96a3-a33026b1e9ce
-1638919477180	Marionette	INFO	Listening on port 45813
-1638919477296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638919527214	geckodriver	INFO	Listening on 127.0.0.1:53497
-1638919527217	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "53795" "-no-remote" "-profile" "/tmp/rust_mozprofileGpiBv9"
-*** You are running in headless mode.
-1638919527563	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGpiBv9/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53795/devtools/browser/d33bfb5c-20f9-46fd-a2f8-6bcafba7c5b7
-1638919528466	Marionette	INFO	Listening on port 36617
-1638919528533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638919569879	geckodriver	INFO	Listening on 127.0.0.1:57949
-1638919569882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "60799" "-no-remote" "-profile" "/tmp/rust_mozprofileqegsBy"
-*** You are running in headless mode.
-1638919570217	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqegsBy/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:60799/devtools/browser/39dcc0a6-1993-482c-be60-8119f90d3f28
-1638919571179	Marionette	INFO	Listening on port 36353
-1638919571203	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638919587316	geckodriver	INFO	Listening on 127.0.0.1:48817
-1638919587822	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46861" "-no-remote" "-profile" "/tmp/rust_mozprofilepAZOum"
-*** You are running in headless mode.
-1638919588312	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepAZOum/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:46861/devtools/browser/32bec404-c3e8-43ec-8ec6-055248136150
-1638919589808	Marionette	INFO	Listening on port 42427
-1638919589964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638919619858	geckodriver	INFO	Listening on 127.0.0.1:42273
-1638919619861	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33121" "-no-remote" "-profile" "/tmp/rust_mozprofilecpT82g"
-*** You are running in headless mode.
-1638919620427	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilecpT82g/search.json.mozlz4", (void 0)))
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-
-###!!! [Parent][MessageChannel] Error: (msgtype=0x9F0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
-
-1638919664436	geckodriver	INFO	Listening on 127.0.0.1:32889
-1638919664937	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "58399" "-no-remote" "-profile" "/tmp/rust_mozprofilehFFZAE"
-*** You are running in headless mode.
-1638919665466	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilehFFZAE/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:58399/devtools/browser/43cf326e-1117-44da-a49b-171438770088
-1638919668029	Marionette	INFO	Listening on port 33469
-1638919668366	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638919682253	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
-TimedPromise@chrome://remote/content/marionette/sync.js:223:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1638919693681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
-TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
-TimedPromise@chrome://remote/content/marionette/sync.js:223:10
-interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
-webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
-1638919798483	geckodriver	INFO	Listening on 127.0.0.1:53477
-1638919798992	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "51173" "-no-remote" "-profile" "/tmp/rust_mozprofilel8RwqQ"
-*** You are running in headless mode.
-1638919799515	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilel8RwqQ/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:51173/devtools/browser/3b3c5fce-b68a-40de-98a1-55483c9e8732
-1638919800451	Marionette	INFO	Listening on port 36303
-1638919800512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638919869233	geckodriver	INFO	Listening on 127.0.0.1:46797
-1638919869235	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52873" "-no-remote" "-profile" "/tmp/rust_mozprofileqzTr2L"
-*** You are running in headless mode.
-1638919869582	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqzTr2L/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52873/devtools/browser/92cb4a12-64d8-4402-ad31-127e948fbc86
-1638919870478	Marionette	INFO	Listening on port 36381
-1638919870549	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638919898749	geckodriver	INFO	Listening on 127.0.0.1:56395
-1638919898751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39377" "-no-remote" "-profile" "/tmp/rust_mozprofileRk3hIy"
-*** You are running in headless mode.
-1638919899096	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRk3hIy/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:39377/devtools/browser/4e9b6159-d1aa-4c60-8654-22a0ea133a47
-1638919899922	Marionette	INFO	Listening on port 37525
-1638919899965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638919964825	geckodriver	INFO	Listening on 127.0.0.1:44811
-1638919964828	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "45073" "-no-remote" "-profile" "/tmp/rust_mozprofile46iKjO"
-*** You are running in headless mode.
-1638919965169	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile46iKjO/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:45073/devtools/browser/1f839006-e532-4ef8-8980-56efb7ad6381
-1638919966035	Marionette	INFO	Listening on port 45647
-1638919966142	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638919984720	geckodriver	INFO	Listening on 127.0.0.1:50503
-1638919984722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "39395" "-no-remote" "-profile" "/tmp/rust_mozprofileenoyV9"
-*** You are running in headless mode.
-1638919985067	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileenoyV9/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:39395/devtools/browser/8ab575ed-88c6-4aaa-a50c-c2b1b406dbc5
-1638919985842	Marionette	INFO	Listening on port 37105
-1638919985937	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638920079756	geckodriver	INFO	Listening on 127.0.0.1:52013
-1638920079758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "37541" "-no-remote" "-profile" "/tmp/rust_mozprofilee8EQg7"
-*** You are running in headless mode.
-1638920080088	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilee8EQg7/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:37541/devtools/browser/05681d9c-8a02-400c-ba47-a2dc653eef77
-1638920080952	Marionette	INFO	Listening on port 35947
-1638920080975	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920090412	geckodriver	INFO	Listening on 127.0.0.1:60829
-1638920090414	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33331" "-no-remote" "-profile" "/tmp/rust_mozprofileJBtrbY"
-*** You are running in headless mode.
-1638920090795	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileJBtrbY/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:33331/devtools/browser/9a664b9b-c83f-47ea-a5e3-3864f8431110
-1638920091696	Marionette	INFO	Listening on port 35325
-1638920091729	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920106369	geckodriver	INFO	Listening on 127.0.0.1:41663
-1638920106371	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "33721" "-no-remote" "-profile" "/tmp/rust_mozprofileUcYsi0"
-*** You are running in headless mode.
-1638920106719	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileUcYsi0/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:33721/devtools/browser/6ef56ac9-a31b-403a-8a77-3b89ea1c8b78
-1638920107615	Marionette	INFO	Listening on port 32823
-1638920107686	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920163685	geckodriver	INFO	Listening on 127.0.0.1:40863
-1638920163688	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56215" "-no-remote" "-profile" "/tmp/rust_mozprofileOEnEIC"
-*** You are running in headless mode.
-1638920164018	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileOEnEIC/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:56215/devtools/browser/c5b5df46-421e-4344-a72b-fb5e920bba26
-1638920164901	Marionette	INFO	Listening on port 38309
-1638920165001	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638920230630	geckodriver	INFO	Listening on 127.0.0.1:58193
-1638920230633	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44721" "-no-remote" "-profile" "/tmp/rust_mozprofileqmrzwJ"
-*** You are running in headless mode.
-1638920231003	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqmrzwJ/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:44721/devtools/browser/65a3301f-be80-4699-9381-390076b10cae
-1638920231958	Marionette	INFO	Listening on port 33095
-1638920232065	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638920293996	geckodriver	INFO	Listening on 127.0.0.1:49739
-1638920293999	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "41935" "-no-remote" "-profile" "/tmp/rust_mozprofileX5Hypr"
-*** You are running in headless mode.
-1638920294332	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX5Hypr/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:41935/devtools/browser/2a7501a3-ac42-46d3-ac60-e2d2b01ae58f
-1638920295147	Marionette	INFO	Listening on port 34643
-1638920295214	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920347373	geckodriver	INFO	Listening on 127.0.0.1:34605
-1638920347376	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "55451" "-no-remote" "-profile" "/tmp/rust_mozprofileNAvLd5"
-*** You are running in headless mode.
-1638920347705	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNAvLd5/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:55451/devtools/browser/3ff1e804-96d0-4a0e-bad8-21d849e5b5b0
-1638920348545	Marionette	INFO	Listening on port 46881
-1638920348594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638920410216	geckodriver	INFO	Listening on 127.0.0.1:51397
-1638920410219	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "59331" "-no-remote" "-profile" "/tmp/rust_mozprofileaNqkfG"
-*** You are running in headless mode.
-1638920410574	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaNqkfG/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:59331/devtools/browser/84003f7c-97b2-4cca-9f84-fdf48cb48821
-1638920411451	Marionette	INFO	Listening on port 44451
-1638920411533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920457020	geckodriver	INFO	Listening on 127.0.0.1:43195
-1638920457023	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "56139" "-no-remote" "-profile" "/tmp/rust_mozprofileX6b4mO"
-*** You are running in headless mode.
-1638920457376	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileX6b4mO/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:56139/devtools/browser/ce908936-ebf1-4c3b-8fd7-ec2638804a94
-1638920458333	Marionette	INFO	Listening on port 34133
-1638920458438	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638920646754	geckodriver	INFO	Listening on 127.0.0.1:42853
-1638920646757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "50819" "-no-remote" "-profile" "/tmp/rust_mozprofileqlKWEU"
-*** You are running in headless mode.
-1638920647084	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqlKWEU/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:50819/devtools/browser/a1be8f47-727a-4574-9ee5-8c8d4e56bc44
-1638920647983	Marionette	INFO	Listening on port 36983
-1638920648072	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638920702576	geckodriver	INFO	Listening on 127.0.0.1:55799
-1638920702579	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51389" "-no-remote" "-profile" "/tmp/rust_mozprofile1QKLfP"
-1638920703284	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile1QKLfP/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:51389/devtools/browser/50df413b-dcd1-4075-b442-414960cdc8cc
-1638920704436	Marionette	INFO	Listening on port 34451
-1638920704494	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-JavaScript error: resource:///modules/FaviconLoader.jsm, line 596: InvalidStateError: JSWindowActorChild.sendAsyncMessage: JSWindowActorChild cannot send at the moment
-JavaScript warning: https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi, line 645: Script terminated by timeout at:
-s_4c@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:645:51
-s_jqa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:650:444
-s_Cc@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:650:71
-s_R/b.create@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:3816:242
-f@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:969:497
-s_Uj.prototype.getController/<@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:970:210
-s_Ppa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:623:350
-s_Si@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:621:203
-s_yc.prototype.addCallback@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:620:353
-s_Uj.prototype.getController@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:970:185
-s_Aua@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:973:472
-s_Uj.prototype.Pa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:972:411
-s_Afa.prototype.zr@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:906:394
-l@https://www.google.com/search?q={%27name%27:%20%27AWS%20outage%27,%20%27related_queries%27:%20[%27AWS%27,%20%27amazon%20down%27,%20%27aws%20down%27,%20%27amazon%20outage%27,%20%27Amazon%20Web%20Services%27],%20%27related_news%27:%20[{%27title%27:%20%27An%20Amazon%20server%20outage%20is%20causing%20problems%20for%20Alexa,%20Ring%20...%27,%20%27link%27:%20%27https://www.theverge.com/2021/12/7/22822332/amazon-server-aws-down-disney-plus-ring-outage%27,%20%27source%27:%20%27The%20Verge%27},%20{%27title%27:%20%27Amazon%20Web%20Services%20outage%20brings%20some%20delivery%20operations%20to%20a%20...%27,%20%27link%27:%20%27https://www.cnbc.com/2021/12/07/amazon-web-services-outage-causes-issues-at-disney-netflix-coinbase.html%27,%20%27source%27:%20%27CNBC%27},%20{%27title%27:%20%22Amazon%20not%20loading?%20Can%27t%20hook%20up%20on%20Tinder?%20The%20internet%20has%20...%22,%20%27link%27:%20%27https://www.usatoday.com/story/tech/2021/12/07/aws-amazon-outage-what-do/6419140001/%27,%20%27source%27:%20%27USA%20TODAY%27},%20{%27title%27:%20%27Amazon%20packages%20pile%20up%20as%20AWS%20outage%20spawns%20delivery%20havoc%27,%20%27link%27:%20%27https://www.seattletimes.com/business/amazon-aws-cloud-users-report-outages/%27,%20%27source%27:%20%27The%20Seattle%20Times%27},%20{%27title%27:%20%27Amazon%20Web%20Services%20Outage%20Takes%20Businesses,%20Services%20Offline%27,%20%27link%27:%20%27https://www.wsj.com/articles/amazon-web-services-appears-to-be-down-for-many-users-11638898270%27,%20%27source%27:%20%27The%20Wall%20Street%20Journal%27},%20{%27title%27:%20%27AWS%20us-east-1%20outage%20brings%20down%20services%20around%20the%20world%27,%20%27link%27:%20%27https://www.datacenterdynamics.com/en/news/aws-us-east-1-outage-brings-down-services-around-the-world/%27,%20%27source%27:%20%27DatacenterDynamics%27},%20{%27title%27:%20%27As%20AWS%20outage%20hits,%20dozens%20of%20websites%20and%20apps%20are%20down%20in%20some%20...%27,%20%27link%27:%20%27https://www.cnet.com/tech/services-and-software/aws-outage-means-major-sites-are-down-in-some-east-coast-cities/%27,%20%27source%27:%20%27CNET%27}]}:23:108
-trigger@https://www.google.com/search?q={%27name%27:%20%27AWS%20outage%27,%20%27related_queries%27:%20[%27AWS%27,%20%27amazon%20down%27,%20%27aws%20down%27,%20%27amazon%20outage%27,%20%27Amazon%20Web%20Services%27],%20%27related_news%27:%20[{%27title%27:%20%27An%20Amazon%20server%20outage%20is%20causing%20problems%20for%20Alexa,%20Ring%20...%27,%20%27link%27:%20%27https://www.theverge.com/2021/12/7/22822332/amazon-server-aws-down-disney-plus-ring-outage%27,%20%27source%27:%20%27The%20Verge%27},%20{%27title%27:%20%27Amazon%20Web%20Services%20outage%20brings%20some%20delivery%20operations%20to%20a%20...%27,%20%27link%27:%20%27https://www.cnbc.com/2021/12/07/amazon-web-services-outage-causes-issues-at-disney-netflix-coinbase.html%27,%20%27source%27:%20%27CNBC%27},%20{%27title%27:%20%22Amazon%20not%20loading?%20Can%27t%20hook%20up%20on%20Tinder?%20The%20internet%20has%20...%22,%20%27link%27:%20%27https://www.usatoday.com/story/tech/2021/12/07/aws-amazon-outage-what-do/6419140001/%27,%20%27source%27:%20%27USA%20TODAY%27},%20{%27title%27:%20%27Amazon%20packages%20pile%20up%20as%20AWS%20outage%20spawns%20delivery%20havoc%27,%20%27link%27:%20%27https://www.seattletimes.com/business/amazon-aws-cloud-users-report-outages/%27,%20%27source%27:%20%27The%20Seattle%20Times%27},%20{%27title%27:%20%27Amazon%20Web%20Services%20Outage%20Takes%20Businesses,%20Services%20Offline%27,%20%27link%27:%20%27https://www.wsj.com/articles/amazon-web-services-appears-to-be-down-for-many-users-11638898270%27,%20%27source%27:%20%27The%20Wall%20Street%20Journal%27},%20{%27title%27:%20%27AWS%20us-east-1%20outage%20brings%20down%20services%20around%20the%20world%27,%20%27link%27:%20%27https://www.datacenterdynamics.com/en/news/aws-us-east-1-outage-brings-down-services-around-the-world/%27,%20%27source%27:%20%27DatacenterDynamics%27},%20{%27title%27:%20%27As%20AWS%20outage%20hits,%20dozens%20of%20websites%20and%20apps%20are%20down%20in%20some%20...%27,%20%27link%27:%20%27https://www.cnet.com/tech/services-and-software/aws-outage-means-major-sites-are-down-in-some-east-coast-cities/%27,%20%27source%27:%20%27CNET%27}]}:23:2651
-s_Uj.prototype.trigger@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:967:468
-s_6ma@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:968:114
-s_Ac@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:809:15
-s_5sa/<@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:821:106
-s_5sa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:821:78
-s_Ysa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:820:284
-s_3sa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:818:501
-s_Vsa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:817:487
-s_Fj/this.oa<@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:814:155
-s_Wsa/a.wa</a.Aa@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:823:256
-s_Kna/b.port1.onmessage@https://www.google.com/xjs/_/js/k=xjs.s.uk.371AR51SKKA.O/am=MmAEAGAAAXA3AgGYgQAAAAAAAA4SEHg3AAFAAFQjIAFjLgSQAACAGAAASAgAGAMJAgQOEAAAAOAjugBw_gAARrCECwAAAAAAAAhAS5ChAomAACAAAAAAQKwmqt4ZIgAAAg/d=1/ed=1/dg=2/esmo=1/rs=ACT90oHjOjOm9qzF4mPwrzEDrgoQtVYlVg/m=attn,cdos,cr,dpf,hsm,jsa,d,csi:490:496
-
-1638920769615	Marionette	INFO	Stopped listening on port 34451
+1638925430744	Marionette	INFO	Stopped listening on port 43753
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638920851424	geckodriver	INFO	Listening on 127.0.0.1:52725
-1638920851426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52295" "-no-remote" "-profile" "/tmp/rust_mozprofileAxqJfP"
-1638920852134	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAxqJfP/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52295/devtools/browser/b24e8083-958d-4041-ae3f-d3ec912d8240
-1638920853342	Marionette	INFO	Listening on port 39869
-1638920853458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638920907084	geckodriver	INFO	Listening on 127.0.0.1:55251
-1638920907087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52529" "-no-remote" "-profile" "/tmp/rust_mozprofile30YebM"
-*** You are running in headless mode.
-1638920907418	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile30YebM/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52529/devtools/browser/0581e8b2-926a-4ecd-983d-1f25b95a187c
-1638920908327	Marionette	INFO	Listening on port 38059
-1638920908401	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920918617	geckodriver	INFO	Listening on 127.0.0.1:52737
-1638920918620	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48707" "-no-remote" "-profile" "/tmp/rust_mozprofile5B2c5v"
-*** You are running in headless mode.
-1638920918969	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile5B2c5v/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:48707/devtools/browser/7560fd60-0611-4356-8bdf-382123b192a5
-1638920919859	Marionette	INFO	Listening on port 46025
-1638920919935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638920967860	geckodriver	INFO	Listening on 127.0.0.1:39311
-1638920967863	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52689" "-no-remote" "-profile" "/tmp/rust_mozprofileb30rKl"
-*** You are running in headless mode.
-1638920968190	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileb30rKl/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52689/devtools/browser/aa49ad71-b2ec-42f5-95ca-5e5c267d3a05
-1638920969042	Marionette	INFO	Listening on port 34403
-1638920969078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-Exiting due to channel error.
-Exiting due to channel error.
-Exiting due to channel error.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638921049670	geckodriver	INFO	Listening on 127.0.0.1:44213
-1638921049673	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "44803" "-no-remote" "-profile" "/tmp/rust_mozprofileBla9XP"
-*** You are running in headless mode.
-1638921050000	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileBla9XP/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:44803/devtools/browser/ba24fbcc-1314-4b3e-9c9d-9cc1ae4b697f
-1638921050928	Marionette	INFO	Listening on port 33277
-1638921050987	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638921054899	geckodriver	INFO	Listening on 127.0.0.1:58219
-1638921054902	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "52787" "-no-remote" "-profile" "/tmp/rust_mozprofileEm4Xx5"
-*** You are running in headless mode.
-1638921055232	Marionette	INFO	Marionette enabled
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEm4Xx5/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52787/devtools/browser/45f83a6e-6c49-4a9e-9bcb-86c0bb4d79cf
-1638921056099	Marionette	INFO	Listening on port 38863
-1638921056119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638921077414	geckodriver	INFO	Listening on 127.0.0.1:38839
-1638921077416	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "48087" "-no-remote" "-profile" "/tmp/rust_mozprofileytBs7w"
-*** You are running in headless mode.
-1638921077746	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileytBs7w/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:48087/devtools/browser/ecff8262-fabb-4138-9b5c-8df02f00db2e
-1638921078654	Marionette	INFO	Listening on port 42593
-1638921078731	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638921574990	geckodriver	INFO	Listening on 127.0.0.1:53929
-1638921575009	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "49497" "-no-remote" "-profile" "/tmp/rust_mozprofilenbmQkx"
-*** You are running in headless mode.
-1638921575251	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilenbmQkx/search.json.mozlz4", (void 0)))
-console.warn: TopSitesFeed: Contile endpoint returned unexpected status: 403
-DevTools listening on ws://localhost:49497/devtools/browser/65a55e76-2997-420f-bf6b-97f9a2c7d569
-1638921576205	Marionette	INFO	Listening on port 38031
-1638921576236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638921596283	geckodriver	INFO	Listening on 127.0.0.1:59073
-1638921596285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "47319" "-no-remote" "-profile" "/tmp/rust_mozprofileZdYRqF"
-*** You are running in headless mode.
-1638921596635	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZdYRqF/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:47319/devtools/browser/54aaa64e-cfa3-4fa3-9e85-a33019f07bd8
-1638921597573	Marionette	INFO	Listening on port 39311
-1638921597604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638921617602	geckodriver	INFO	Listening on 127.0.0.1:44579
-1638921617605	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "60995" "-no-remote" "-profile" "/tmp/rust_mozprofileqrm2lN"
-1638921618422	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileqrm2lN/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:60995/devtools/browser/12d3f06a-9eb6-4dd2-accb-93b678a3b2a9
-1638921619909	Marionette	INFO	Listening on port 44479
-1638921620023	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638921628710	Marionette	INFO	Stopped listening on port 44479
+1638925432159	Marionette	INFO	Stopped listening on port 36247
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638921630523	Marionette	INFO	Stopped listening on port 39869
+1638925433396	Marionette	INFO	Stopped listening on port 40203
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638925435597	Marionette	INFO	Stopped listening on port 45105
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1638925510381	geckodriver	INFO	Listening on 127.0.0.1:46571
+1638925510384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "38595" "-no-remote" "-profile" "/tmp/rust_mozprofileuSzOsS"
+1638925511078	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileuSzOsS/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:38595/devtools/browser/d1114678-a08f-466a-952d-8bc1e8220afe
+1638925512236	Marionette	INFO	Listening on port 44045
+1638925512299	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925514798	Marionette	INFO	Stopped listening on port 45949
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638922120849	geckodriver	INFO	Listening on 127.0.0.1:42227
-1638922120852	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "54297" "-no-remote" "-profile" "/tmp/rust_mozprofileeHtDL8"
-1638922121556	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeHtDL8/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:54297/devtools/browser/bbbb9d5e-f5b7-4132-8a57-007bc7168a29
-1638922122645	Marionette	INFO	Listening on port 43897
-1638922122682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922168800	geckodriver	INFO	Listening on 127.0.0.1:55537
-1638922168806	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51179" "-no-remote" "-profile" "/tmp/rust_mozprofilejK5tF6"
-1638922169502	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilejK5tF6/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:51179/devtools/browser/33f8340d-7eb0-43b9-8457-185f8ee4fc61
-1638922170667	Marionette	INFO	Listening on port 44745
-1638922170721	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922186379	geckodriver	INFO	Listening on 127.0.0.1:43777
-1638922186382	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "56891" "-no-remote" "-profile" "/tmp/rust_mozprofiletgx2lt"
-1638922187102	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletgx2lt/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:56891/devtools/browser/cbae4aab-265c-436a-b1d0-58efaa63aed8
-1638922188043	Marionette	INFO	Listening on port 33061
-1638922188097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922194781	Marionette	INFO	Stopped listening on port 44745
+1638925599949	Marionette	INFO	Stopped listening on port 44045
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638922197402	Marionette	INFO	Stopped listening on port 43897
+1638925684579	geckodriver	INFO	Listening on 127.0.0.1:46557
+1638925684582	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "33003" "-no-remote" "-profile" "/tmp/rust_mozprofileYjV1ug"
+1638925685290	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYjV1ug/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:33003/devtools/browser/10103721-d5a2-4a4a-8992-5130d3ab6ae7
+1638925686442	Marionette	INFO	Listening on port 44155
+1638925686497	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925689467	geckodriver	INFO	Listening on 127.0.0.1:52471
+1638925689470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "42613" "-no-remote" "-profile" "/tmp/rust_mozprofileaF9C0X"
+1638925690190	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaF9C0X/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:42613/devtools/browser/40f22938-8c7a-461f-b0d5-8f73d44e4f8b
+1638925691360	Marionette	INFO	Listening on port 44945
+1638925691389	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925699619	Marionette	INFO	Stopped listening on port 44155
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1638925793807	geckodriver	INFO	Listening on 127.0.0.1:45077
+1638925793810	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "59077" "-no-remote" "-profile" "/tmp/rust_mozprofileKiyQLD"
+1638925794511	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKiyQLD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:59077/devtools/browser/2d63cc04-cdaf-41c2-a419-beeaa492c675
+1638925795698	Marionette	INFO	Listening on port 43039
+1638925795739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925825171	geckodriver	INFO	Listening on 127.0.0.1:51921
+1638925825174	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "55689" "-no-remote" "-profile" "/tmp/rust_mozprofiletqpyFZ"
+1638925825959	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletqpyFZ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55689/devtools/browser/36cc6add-6e9a-42f9-a69b-d5a1c1b1dea0
+1638925827100	Marionette	INFO	Listening on port 37247
+1638925827189	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925830670	Marionette	INFO	Stopped listening on port 43039
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638922305048	geckodriver	INFO	Listening on 127.0.0.1:51469
-1638922305051	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "36843" "-no-remote" "-profile" "/tmp/rust_mozprofilepr31nc"
-1638922305773	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepr31nc/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:36843/devtools/browser/16591263-c6a3-458d-817c-e1809224ca67
-1638922306889	Marionette	INFO	Listening on port 45957
-1638922306965	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922310255	Marionette	INFO	Stopped listening on port 33061
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638922322236	geckodriver	INFO	Listening on 127.0.0.1:35915
-1638922322239	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "37323" "-no-remote" "-profile" "/tmp/rust_mozprofileKwB5If"
-1638922322938	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileKwB5If/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:37323/devtools/browser/c858f058-2bc6-4d65-a2b8-6e0296907dfe
-1638922324002	Marionette	INFO	Listening on port 41387
-1638922324053	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922334212	Marionette	INFO	Stopped listening on port 45957
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638922501955	geckodriver	INFO	Listening on 127.0.0.1:45129
-1638922501958	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52999" "-no-remote" "-profile" "/tmp/rust_mozprofile0yL8hM"
-1638922502695	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile0yL8hM/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52999/devtools/browser/4773084d-f1d9-4165-9cca-822efca8bbfb
-1638922503932	Marionette	INFO	Listening on port 34997
-1638922503973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922505529	Marionette	INFO	Stopped listening on port 41387
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638922570720	geckodriver	INFO	Listening on 127.0.0.1:53831
-1638922570722	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "46899" "-no-remote" "-profile" "/tmp/rust_mozprofileokiYLD"
-*** You are running in headless mode.
-1638922571050	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileokiYLD/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:46899/devtools/browser/c8f3e862-7d12-41d9-83e4-372ae9bfbecc
-1638922571851	Marionette	INFO	Listening on port 42101
-1638922571938	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922584798	geckodriver	INFO	Listening on 127.0.0.1:55517
-1638922584801	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "57827" "-no-remote" "-profile" "/tmp/rust_mozprofiletqCga1"
-*** You are running in headless mode.
-1638922585134	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletqCga1/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:57827/devtools/browser/96d30b4a-7023-4f4f-96a4-1255c3884b05
-1638922585924	Marionette	INFO	Listening on port 35747
-1638922586014	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922632869	geckodriver	INFO	Listening on 127.0.0.1:50751
-1638922632872	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-headless" "--remote-debugging-port" "40275" "-no-remote" "-profile" "/tmp/rust_mozprofileu8ORNr"
-*** You are running in headless mode.
-1638922633200	Marionette	INFO	Marionette enabled
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileu8ORNr/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:40275/devtools/browser/5072a11a-9e4e-45cb-acd6-9872ec517ad3
-1638922634109	Marionette	INFO	Listening on port 43437
-1638922634193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922695427	geckodriver	INFO	Listening on 127.0.0.1:47931
-1638922695430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47399" "-no-remote" "-profile" "/tmp/rust_mozprofilefv9ilI"
-1638922696145	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilefv9ilI/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:47399/devtools/browser/19155e71-6a48-4187-aa9e-fda7964a96ad
-1638922697223	Marionette	INFO	Listening on port 32783
-1638922697244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
 console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638922704868	geckodriver	INFO	Listening on 127.0.0.1:38079
-1638922704870	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "34033" "-no-remote" "-profile" "/tmp/rust_mozprofileknlB9u"
-1638922705566	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileknlB9u/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:34033/devtools/browser/e8943ccf-b457-4ecc-a259-278c6ee1a553
-1638922706675	Marionette	INFO	Listening on port 35639
-1638922706785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638922723174	Marionette	INFO	Stopped listening on port 35639
+1638925831849	Marionette	INFO	Stopped listening on port 44945
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638922724640	Marionette	INFO	Stopped listening on port 34997
+1638925950519	geckodriver	INFO	Listening on 127.0.0.1:35257
+1638925950522	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58347" "-no-remote" "-profile" "/tmp/rust_mozprofileRejivJ"
+1638925951249	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRejivJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58347/devtools/browser/5d6ff540-f0a1-4891-8e80-9559b3f6187c
+1638925952526	Marionette	INFO	Listening on port 37031
+1638925952641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925955511	geckodriver	INFO	Listening on 127.0.0.1:36703
+1638925955514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "58355" "-no-remote" "-profile" "/tmp/rust_mozprofileLTnWcJ"
+1638925956319	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileLTnWcJ/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:58355/devtools/browser/c39ba0e0-acd4-4e76-92e8-015f81a8bb17
+1638925957554	Marionette	INFO	Listening on port 33719
+1638925957632	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1638925957854	Marionette	INFO	Stopped listening on port 37247
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1638922725689	Marionette	INFO	Stopped listening on port 32783
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638922915664	geckodriver	INFO	Listening on 127.0.0.1:33613
-1638922915667	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "51679" "-no-remote" "-profile" "/tmp/rust_mozprofileIeLlfy"
-1638922916366	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileIeLlfy/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:51679/devtools/browser/b4592e12-5c44-441b-b940-f91df19fe83c
-1638922917453	Marionette	INFO	Listening on port 46813
-1638922917482	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922934748	geckodriver	INFO	Listening on 127.0.0.1:41481
-1638922934751	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "48641" "-no-remote" "-profile" "/tmp/rust_mozprofiledLrTsJ"
-1638922935454	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiledLrTsJ/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:48641/devtools/browser/6e25112d-fdf3-4040-9efd-22e021fcaae5
-1638922936437	Marionette	INFO	Listening on port 38041
-1638922936471	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638922948462	geckodriver	INFO	Listening on 127.0.0.1:34107
-1638922948465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "41501" "-no-remote" "-profile" "/tmp/rust_mozprofileL4smAZ"
-1638922949198	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileL4smAZ/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:41501/devtools/browser/94c14bb4-83a1-4ec6-b124-24b7ffd2e434
-1638922950140	Marionette	INFO	Listening on port 33785
-1638922950184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-console.log: WebExtensions: reset-default-search: starting.
-console.log: WebExtensions: reset-default-search: No addons in our list are installed.
-1638923033189	Marionette	INFO	Stopped listening on port 46813
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923034190	Marionette	INFO	Stopped listening on port 38041
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923037951	geckodriver	INFO	Listening on 127.0.0.1:43089
-1638923037953	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "47903" "-no-remote" "-profile" "/tmp/rust_mozprofileywqlnr"
-1638923038646	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileywqlnr/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:47903/devtools/browser/b0859a97-ec74-4cb1-8386-39a8e0efbe72
-1638923039607	Marionette	INFO	Listening on port 44763
-1638923039670	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638923041784	Marionette	INFO	Stopped listening on port 33785
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923110283	geckodriver	INFO	Listening on 127.0.0.1:59617
-1638923110285	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "43299" "-no-remote" "-profile" "/tmp/rust_mozprofile9OI0m3"
-1638923110990	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile9OI0m3/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:43299/devtools/browser/49138e62-3c68-4894-931d-70874303a2c8
-1638923112010	Marionette	INFO	Listening on port 36171
-1638923112105	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638923119893	Marionette	INFO	Stopped listening on port 44763
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923319493	geckodriver	INFO	Listening on 127.0.0.1:55777
-1638923319496	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "57783" "-no-remote" "-profile" "/tmp/rust_mozprofileYRAwqs"
-1638923320190	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileYRAwqs/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:57783/devtools/browser/c736a118-387f-41da-8669-6e74507cb7cb
-1638923321206	Marionette	INFO	Listening on port 34361
-1638923321311	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
-console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
-1638923336202	Marionette	INFO	Stopped listening on port 36171
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923337235	Marionette	INFO	Stopped listening on port 34361
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923344755	geckodriver	INFO	Listening on 127.0.0.1:34257
-1638923344758	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "53407" "-no-remote" "-profile" "/tmp/rust_mozprofile2au1cV"
-1638923345474	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2au1cV/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:53407/devtools/browser/b0516434-9e51-4eb1-822b-16848de7d77f
-1638923346465	Marionette	INFO	Listening on port 45327
-1638923346579	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638923362706	geckodriver	INFO	Listening on 127.0.0.1:41331
-1638923362709	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--remote-debugging-port" "52083" "-no-remote" "-profile" "/tmp/rust_mozprofileSNCzsd"
-1638923363422	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSNCzsd/search.json.mozlz4", (void 0)))
-DevTools listening on ws://localhost:52083/devtools/browser/00300326-67ea-4297-8a87-b0dd661a0351
-1638923364474	Marionette	INFO	Listening on port 40857
-1638923364523	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1638923370637	Marionette	INFO	Stopped listening on port 45327
-console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1638923371728	Marionette	INFO	Stopped listening on port 40857
+1638925959086	Marionette	INFO	Stopped listening on port 37031
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
