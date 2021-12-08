@@ -1,19 +1,21 @@
+# Проект сделан на чистом энтузиазме и мне за него не платили... Если ты 24/7  програмируешь за хлеб с водой - выключай скрипт...
+
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 import datetime, time, json
 from selenium.webdriver.firefox.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
+
+
 
 
 options = Options()
-options.headless = False # Might not load correctly from first try if set to False
+options.headless = False
 service = Service('./geckodriver')
 driver = webdriver.Firefox(options=options, service=service)
 
-
-url = 'https://trends.google.com/trends/trendingsearches/daily?geo=US'
+geo = input("GEO : ")
+url = f'https://trends.google.com/trends/trendingsearches/daily?geo={geo}'
 
 driver.get(url)
 #driver.implicitly_wait(13) # To avoid abuse of targeted website !!! In production should be replaced or reworked for proxies
@@ -63,24 +65,25 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
 
         trends[x]['related_news'] = l1
-print(trends)
+
 print('Finished scaning trends. Scaning google.com')
 for data in trends:
     query = trends[data]
     title = query['name']
     related_titles = query['related_queries']
-    print(related_titles)
-    for related_title in related_titles:
-        print(related_title)
-        google = f'https://www.google.com/search?q={related_title}'
-        driver.get(google)
+
     google = f'https://www.google.com/search?q={title}'
 
     related_query = query['related_queries']
-    print(related_query)
-
     driver.get(google)
 
+    for related_title in related_titles:
+        if related_title != "":
+            print(related_title)
+            google = f'https://www.google.com/search?q={related_title}'
+            driver.get(google)
+        else:
+            pass
 
 #with open(f'output/result.json{datetime.datetime.now()}', 'w') as fp:
 #    json.dump(trends, fp)
