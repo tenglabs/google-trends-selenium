@@ -3,6 +3,8 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
 import datetime, time, json
 from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
 
 options = Options()
@@ -14,7 +16,7 @@ driver = webdriver.Firefox(options=options, service=service)
 url = 'https://trends.google.com/trends/trendingsearches/daily?geo=US'
 
 driver.get(url)
-driver.implicitly_wait(2) # To improve stability of this app and avoid abuse of target website, not the best way for production but does the trick for demo
+driver.implicitly_wait(13) # To avoid abuse of targeted website !!! In production should be replaced or reworked for proxies
 
 
 date = driver.find_element(By.CLASS_NAME, "content-header-title").text
@@ -35,9 +37,9 @@ for x, elem in enumerate(elems[0:int(stop)],1):
     related_queries = elem.find_elements(By.XPATH, "//a[contains(@class, 'chip')]")
 
     trends[x] = {
-                            'name':formatted,
-                            'related_queries':[],
-                             }
+                'name':formatted,
+                'related_queries':[],
+                }
     for query in related_queries:
 
         trends[x]['related_queries'].append(query.text)
@@ -60,9 +62,19 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
 
         trends[x]['related_news'] = l1
-#print(trends)
+#print
+print('Finished scaning trends. Scaning google.com')
+for data in trends:
+    query = trends[data]
+    title = query['title']
+    google = f'https://www.google.com/search?q={title}'
+
+    related_query = query['related_queries']
+    print(related_query)
+
+    driver.get(google)
 
 
-with open(f'output/result.json{datetime.datetime.now()}', 'w') as fp:
-    json.dump(trends, fp)
-    print('Output JSON file can be found in output directory')
+#with open(f'output/result.json{datetime.datetime.now()}', 'w') as fp:
+#    json.dump(trends, fp)
+#    print('Output JSON file can be found in output directory')
