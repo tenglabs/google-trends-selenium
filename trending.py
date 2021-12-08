@@ -28,7 +28,29 @@ cookiebar = driver.find_element(By.CLASS_NAME, "cookieBarConsentButton") # Can b
 cookiebar.click()
 
 trends = {}
-print('Welcome to Trend Scraper 1.0. Please restart this file if you have connection errors. ')
+print("""
+
+
+                            ~-.
+          ,,,;            ~-.~-.~-
+         (.../           ~-.~-.~-.~-.~-.
+         } o~`,         ~-.~-.~-.~-.~-.~-.
+         (/    \      ~-.~-.~-.~-.~-.~-.~-.
+          ;    \    ~-.~-.~-.~-.~-.~-.~-.
+         ;     {_.~-.~-.~-.~-.~-.~-.~
+        ;:  .-~`    ~-.~-.~-.~-.~-.
+       ;.: :'    ._   ~-.~-.~-.~-.~-
+        ;::`-.    '-._  ~-.~-.~-.~-
+         ;::. `-.    '-,~-.~-.~-.
+          ';::::.`''-.-'
+            ';::;;:,:'
+               '||"
+               / |
+             ~` ~"'
+
+
+Welcome to Trend Scraper 1.0. Please restart this file if you have connection errors.
+ """)
 stop = input("How many trends you want to scan?: ")
 
 for x, elem in enumerate(elems[0:int(stop)],1):
@@ -77,6 +99,17 @@ for data in trends:
     related_query = query['related_queries']
     driver.get(google)
 
+# Related Search Section
+    related_searches = driver.find_element(By.XPATH, "//div[contains(@class, 'y6Uyqe')]")
+    if related_searches is not None:
+        print(related_searches.text)
+        print('RELATED --------- y6')
+    else:
+        related_searches = driver.find_element(By.XPATH, "//div[contains(@class, 'card-section')]")
+        print(related_searches.text)
+        print('RELATED --------- CARD-SECTION')
+# End Related Search Section
+
     pageInfo = []
     searchResults = driver.find_elements_by_class_name('g')
     for result in searchResults:
@@ -87,10 +120,13 @@ for data in trends:
         print(header)
         text = result.find_element_by_class_name('IsZvec').text
         print(text)
+
+
         pageInfo.append({
             'header': header, 'link': link, 'text': text
         })
         time.sleep(10)
+
     print(pageInfo)
     for related_title in related_titles:
         if related_title != "":
@@ -106,3 +142,4 @@ for data in trends:
 #with open(f'output/result.json{datetime.datetime.now()}', 'w') as fp:
 #    json.dump(trends, fp)
 #    print('Output JSON file can be found in output directory')
+
