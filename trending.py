@@ -77,11 +77,29 @@ for data in trends:
     related_query = query['related_queries']
     driver.get(google)
 
+    pageInfo = []
+    searchResults = driver.find_elements_by_class_name('g')
+    for result in searchResults:
+        element = result.find_element_by_css_selector('a')
+        link = element.get_attribute('href')
+        print(link)
+        header = result.find_element_by_css_selector('h3').text
+        print(header)
+        text = result.find_element_by_class_name('IsZvec').text
+        print(text)
+        pageInfo.append({
+            'header': header, 'link': link, 'text': text
+        })
+        time.sleep(10)
+    print(pageInfo)
     for related_title in related_titles:
         if related_title != "":
             print(related_title)
             google = f'https://www.google.com/search?q={related_title}'
             driver.get(google)
+
+
+
         else:
             pass
 
