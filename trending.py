@@ -1,12 +1,10 @@
-# Проект сделан на чистом энтузиазме и мне за него не платили... Если ты 24/7  програмируешь за хлеб с водой - выключай скрипт...
-
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.common.by import By
-import datetime, time, json
+import datetime, time, json, traceback
 from selenium.webdriver.firefox.options import Options
-
-
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
 
 
 options = Options()
@@ -18,43 +16,27 @@ geo = input("GEO : ")
 url = f'https://trends.google.com/trends/trendingsearches/daily?geo={geo}'
 
 driver.get(url)
-#driver.implicitly_wait(13) # To avoid abuse of targeted website !!! In production should be replaced or reworked for proxies
+driver.implicitly_wait(1) # To avoid abuse of targeted website !!! In production should be replaced or reworked for proxies
 
 
 date = driver.find_element(By.CLASS_NAME, "content-header-title").text
-elems = driver.find_elements(By.XPATH, "//div[contains(@class, 'feed-list-wrapper')][1]//div[contains(@class, 'feed-item-header')]")
+xdate = datetime.date.today()
 
+today = xdate.strftime("%A, %B %-d, %Y")
+if today != date:
+    print(f'News for {today} not found. Shutting down.')
+    exit()
+wait = WebDriverWait(driver, 15)
+elems = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//div[contains(@class, 'feed-list-wrapper')][1]//div[contains(@class, 'feed-item-header')]")))
 cookiebar = driver.find_element(By.CLASS_NAME, "cookieBarConsentButton") # Can be removed with better XPATH like in production...
 cookiebar.click()
 
 trends = {}
-print("""
-
-
-                            ~-.
-          ,,,;            ~-.~-.~-
-         (.../           ~-.~-.~-.~-.~-.
-         } o~`,         ~-.~-.~-.~-.~-.~-.
-         (/    \      ~-.~-.~-.~-.~-.~-.~-.
-          ;    \    ~-.~-.~-.~-.~-.~-.~-.
-         ;     {_.~-.~-.~-.~-.~-.~-.~
-        ;:  .-~`    ~-.~-.~-.~-.~-.
-       ;.: :'    ._   ~-.~-.~-.~-.~-
-        ;::`-.    '-._  ~-.~-.~-.~-
-         ;::. `-.    '-,~-.~-.~-.
-          ';::::.`''-.-'
-            ';::;;:,:'
-               '||"
-               / |
-             ~` ~"'
-
-
-Welcome to Trend Scraper 1.0. Please restart this file if you have connection errors.
- """)
+print('Welcome to Trend Scraper 1.0. Please restart this file if you have connection errors.')
 stop = input("How many trends you want to scan?: ")
 
 for x, elem in enumerate(elems[0:int(stop)],1):
-    #print(f'Scanning trend #{x}')
+    print(f'Scanning trend #{x}')
     elem.click()
 
     formatted = elem.text.split('\n', 2)[1] # Ugly Code, but for demo purposes it's ok
@@ -68,78 +50,94 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
         trends[x]['related_queries'].append(query.text)
 
-    time.sleep(5)
     btns = elem.find_elements(By.XPATH, "//button[contains(@class, 'carousel-next')]")
 
 
 
     for btn in btns:
-        tests = elem.find_elements(By.XPATH, "//ng-transclude[contains(@class, 'carousel-items')]//a")
+
+        wait = WebDriverWait(elem, 15)
+        tests = wait.until(EC.presence_of_all_elements_located((By.XPATH, "//ng-transclude[contains(@class, 'carousel-items')]//a")))
 
         l1 = []
         for test in tests:
 
             link = test.get_attribute('href')
             title = test.get_attribute('title')
-            source = test.find_element(By.XPATH,'.//span').get_attribute('innerHTML') #Ugly solution, I will leave it like this unless it will be in production
-
+            wait = WebDriverWait(test, 15)
+            source = wait.until(EC.presence_of_element_located((By.XPATH,'.//span'))).get_attribute('innerHTML')
             l1.append({'title':title,'link':link,'source':source},)
 
 
         trends[x]['related_news'] = l1
 
 print('Finished scaning trends. Scaning google.com')
-for data in trends:
+
+
+for  data in trends:
     query = trends[data]
     title = query['name']
     related_titles = query['related_queries']
-
     google = f'https://www.google.com/search?q={title}'
-
     related_query = query['related_queries']
     driver.get(google)
-
-# Related Search Section
-    related_searches = driver.find_element(By.XPATH, "//div[contains(@class, 'y6Uyqe')]")
-    if related_searches is not None:
-        print(related_searches.text)
-        print('RELATED --------- y6')
-    else:
-        related_searches = driver.find_element(By.XPATH, "//div[contains(@class, 'card-section')]")
-        print(related_searches.text)
-        print('RELATED --------- CARD-SECTION')
-# End Related Search Section
-
+    wait = WebDriverWait(driver, 10)
     pageInfo = []
-    searchResults = driver.find_elements_by_class_name('g')
-    for result in searchResults:
-        element = result.find_element_by_css_selector('a')
-        link = element.get_attribute('href')
-        print(link)
-        header = result.find_element_by_css_selector('h3').text
-        print(header)
-        text = result.find_element_by_class_name('IsZvec').text
-        print(text)
+    try:
+        related_searches = wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'y6Uyqe')]")))
+    except:
+        print(traceback.format_exc())
+        try:
+            related_searches = driver.find_element(By.XPATH, "//div[contains(@class, 'card-section')]")
 
+        except:
+            print('Something went Wrong... ')
+            print(traceback.format_exc())
+    pageInfo.append({'related_searches': related_searches.text}) # Iterate over this...
+    searchResults = wait.until(EC.presence_of_all_elements_located((By.CLASS_NAME, "g")))
 
-        pageInfo.append({
+    for xr, result in enumerate(searchResults, start=1):
+
+        try:
+
+            wait = WebDriverWait(result, 10)
+
+            element = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "a")))
+            link = element.get_attribute('href')
+            header = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, 'h3'))).text
+            text = wait.until(EC.presence_of_element_located((By.CLASS_NAME, 'IsZvec'))).text
+
+            pageInfo.append({'postion':xr,
             'header': header, 'link': link, 'text': text
-        })
-        time.sleep(10)
-
-    print(pageInfo)
-    for related_title in related_titles:
-        if related_title != "":
-            print(related_title)
-            google = f'https://www.google.com/search?q={related_title}'
-            driver.get(google)
+                            })
+        except:
+            print('Something went wrong')
+            print(traceback.format_exc())
 
 
 
-        else:
-            pass
+final_data = {'trends':trends, 'google_search':pageInfo}
+print(final_data)
 
-#with open(f'output/result.json{datetime.datetime.now()}', 'w') as fp:
-#    json.dump(trends, fp)
-#    print('Output JSON file can be found in output directory')
+with open(f'data{datetime.datetime.now()}.json', 'w', encoding='utf-8') as f:
+    json.dump(final_data, f, ensure_ascii=False, indent=4)
 
+
+# Проект не готов к продакшену (у меня не было намерения сделать готовый к продакшену код), но показывает основы работы с Selenium .
+# Для продакшена проекту не хватает: 1) Rotating Proxies ( Платные прокси)
+#                                    2) Реюзабельного и более читабельного кода (Большую часть кода стоит обернуть в функции,
+#                                       и разделить на файлы: settings, trending, google_search
+#                                    3) Оптимизировать и предусмотреть все кейсы HTML-контента  у google (На данный момент предусмотрены только базовые решения)
+#                                    4) Убрать/минимизировать try/except
+#                                    5) Пересмотреть структуру словарей из которых генерируется JSON
+#                                    6) Превратить related searches в. Не сложно, но я и так достаточно времени потратил на бесплатное демо.
+# Спасибо за ваше время и внимание.
+
+
+# Известные баги:
+# 1) Если давать большую нагрузку на сервис - будет выкидывать со страницы или не прогружать DOM. - Решается с помощью Proxy Rotation
+# 2) Не все страницы в гугле шаблонные, в некоторых случаях встречается проблемы с чтением параметров указанных для XPATH ( Зачастую связано с багом #1)
+#    - Решается с помощью прокси и детального изучения комбинаций HTML шаблонов google
+# 3) При использовании VPN или просто не англ версии - Код будет ломаться т.к. предназначен только для англ версии
+# 4) Включенное окно браузера значительно ухудшает работу приложения, сторонних приложений тоже (Telegram Desktop давал максимальную задержку на Ubuntu)
+#    - решается использование headless браузера
