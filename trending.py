@@ -73,12 +73,21 @@ for x, elem in enumerate(elems[0:int(stop)],1):
 
 print('Finished scaning trends. Scaning google.com')
 
-
-for  data in trends:
-    query = trends[data]
+# Можно улучшить подход к решению задачи с мерджем related и основных, мердж проводится для итерации по всем указанным данным
+search_list = []
+for name in trends:
+    query = trends[name]
     title = query['name']
-    related_titles = query['related_queries']
-    google = f'https://www.google.com/search?q={title}'
+    search_list.append(title)
+    related_queries = query['related_queries']
+    for q in related_queries:
+        search_list.append(q)
+
+
+for data in search_list:
+    print(data)
+
+    google = f'https://www.google.com/search?q={data}'
     related_query = query['related_queries']
     driver.get(google)
     wait = WebDriverWait(driver, 10)
@@ -117,9 +126,9 @@ for  data in trends:
 
 
 final_data = {'trends':trends, 'google_search':pageInfo}
-print(final_data)
 
-with open(f'data{datetime.datetime.now()}.json', 'w', encoding='utf-8') as f:
+
+with open(f'output/data{datetime.datetime.now()}.json', 'w', encoding='utf-8') as f:
     json.dump(final_data, f, ensure_ascii=False, indent=4)
 
 
